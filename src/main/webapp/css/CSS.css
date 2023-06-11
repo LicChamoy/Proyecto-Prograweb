@@ -1,0 +1,97 @@
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.txt {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.txt input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  font-size: 16px;
+}
+
+.txt label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #999;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.txt input:focus ~ label,
+.txt input:valid ~ label {
+  transform: translateY(-25px);
+  font-size: 14px;
+  color: #666;
+}
+
+.misc {
+  margin-bottom: 20px;
+}
+
+.misc p {
+  margin-bottom: 5px;
+}
+
+.misc input[type="date"],
+.misc input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.reg {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.reg a {
+  color: #4caf50;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #999;
+}

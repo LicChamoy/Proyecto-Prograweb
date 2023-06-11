@@ -1,0 +1,14 @@
+com\mycompany\proyectoweb\resources\BuscarPublicacionServlet.class
+com\mycompany\proyectoweb\resources\Dashboard$Publicacion.class
+com\mycompany\proyectoweb\resources\ConexionBd.class
+com\mycompany\proyectoweb\resources\BusquedaServlet.class
+com\mycompany\proyectoweb\resources\JakartaEE8Resource.class
+com\mycompany\proyectoweb\resources\CrearP.class
+com\mycompany\proyectoweb\resources\MetodosSQL.class
+com\mycompany\proyectoweb\resources\EditarPublicacionServlet.class
+com\mycompany\proyectoweb\resources\PerfilUsuarioServlet.class
+com\mycompany\proyectoweb\resources\Register.class
+com\mycompany\proyectoweb\resources\TestServlet.class
+com\mycompany\proyectoweb\resources\Dashboard.class
+com\mycompany\proyectoweb\resources\InicioSesion.class
+com\mycompany\proyectoweb\resources\PerfilUsuarioServlet$PerfilUsuario.class

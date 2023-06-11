@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del contenido */
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#content label {
+    font-weight: bold;
+}
+
+#content input[type="text"],
+#content textarea,
+#content select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#content button[type="submit"] {
+    background-color: #0079d3;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#content p.error {
+    color: red;
+    margin-top: 10px;
+}
+
+container input[type="checkbox"] {
+    margin-right: 5px;
+}
